@@ -1,0 +1,25 @@
+{
+  "name": "node-api",
+  "version": "0.0.0",
+  "description": "Boilerplate RESTful Node API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Michael Messerli",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.10.2",
+    "express": "~4.11.1",
+    "mongoose": "~3.8.21",
+    "morgan": "~1.5.1",
+    "bcrypt-nodejs": "0.0.3",
+    "passport-local": "~1.0.0",
+    "passport": "~0.2.1",
+    "passport-http": "~0.2.2",
+    "jsonwebtoken": "~3.2.2"
+  }
+}
